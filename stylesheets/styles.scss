@@ -3,8 +3,6 @@
 .container {
   margin: 0 auto;
   width: 80%;
-  //padding: 15px;
-  //border: 1px solid black;
   min-height: 100px;
 }
 
@@ -13,7 +11,6 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 15px;
-    //max-width: 1200px;
     margin: 20px auto;
 
     .wrapper:first-child hr {
@@ -26,17 +23,12 @@
 
     .item {
       width: 100%;
-      //height:;
       @include brRadius();
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
     .item:nth-child(3) {
       grid-template-columns: 1.5rem;
-    }
-
-    .wrapper {
-      //border: 2px solid black;
     }
 
     .wrapper:nth-child(3) > .item {
